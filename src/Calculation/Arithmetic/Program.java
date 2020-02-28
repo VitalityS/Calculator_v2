@@ -7,11 +7,11 @@ public class Program {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите первое число");
 
-        int firstNum = in.nextInt();
+        double firstNum = in.nextDouble();
         System.out.println("Введите арифметическую операцию: '+' '-' '*' '/'");
         String operation = in.next();
         System.out.println("Введите второе число");
-        int lastNum = in.nextInt();
+        double lastNum = in.nextDouble();
 
         switch (operation) {
             case "+":

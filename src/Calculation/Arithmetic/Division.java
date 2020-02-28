@@ -1,13 +1,13 @@
 package Calculation.Arithmetic;
 
 public class Division extends Calculate {
-    public Division(int a, int b, String operation) {
+    public Division(double a, double b, String operation) {
         super(a, b, operation);
     }
 
     @Override
-    public int resultOperation(int a, int b, String operation) {
-        int resultOperatioin = a / b;
+    public double resultOperation(double a, double b, String operation) {
+        double resultOperatioin = a / b;
         System.out.println(resultOperatioin);
         return resultOperatioin;
     }

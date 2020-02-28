@@ -1,13 +1,13 @@
 package Calculation.Arithmetic;
 
 public class Calculate implements Arithmetic {
-    private int a;
-    private int b;
+    private double a;
+    private double b;
     private String operation;
 
 
 
-    public Calculate(int a, int b, String operation) {
+    public Calculate(double a, double b, String operation) {
         this.a = a;
         this.b = b;
         this.operation = operation;
@@ -18,12 +18,12 @@ public class Calculate implements Arithmetic {
     }*/
 
 
-    public int resultOperation(int a, int b, String operation) {
+    public double resultOperation(double a, double b, String operation) {
         return 0;
     }
 
     @Override
-    public int resultOperation() {
+    public double resultOperation() {
         return 0;
     }
 
